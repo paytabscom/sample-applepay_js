@@ -4,6 +4,8 @@ PayTabs - ApplePay SDK (JS) sample code
 ## Setup
 
 1. Create your own ApplePay certificates (merchant identifier & applepay)
+
+    Note: Use your merchant dashboard to generate the `.csr` file, then to upload the `certificate` to your ApplePay wallet section.
 2. Upload ApplePay certificate file & the key to `cert` folder
 3. Update `env.php` file with `certificates` names
 4. Add your API keys to `env.php` file
