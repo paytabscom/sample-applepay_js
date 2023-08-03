@@ -1,6 +1,6 @@
 <?php
 
-require_once 'env.php';
+require_once './_config.php';
 require_once('./paytabs_core.php');
 
 //

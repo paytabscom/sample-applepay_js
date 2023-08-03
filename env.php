@@ -10,4 +10,5 @@ $env = [
     'apple_cert_key_file' => '/cert/merchant-cert.key',
 
     'apple_merchant_id' => 'merchant.com.paytabs.x',
+    'verified_domain' => 'plugins.paytabs.com',
 ];

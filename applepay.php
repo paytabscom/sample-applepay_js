@@ -14,7 +14,7 @@ $applepay_data = [
     'merchantIdentifier' => $env['apple_merchant_id'],
     'displayName' => "PT Integrations Team",
     'initiative' => "web",
-    'initiativeContext' => "plugins.paytabs.com",
+    'initiativeContext' => $env['verified_domain'],
 ];
 
 $result = sendRequest($applepay_url, $applepay_data);
